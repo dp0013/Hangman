@@ -1,5 +1,7 @@
 # Hangman
 
+========  DESCRIPTION  ========================
+
 This code was written to create a Hangman game conforming to the following requirements as provided by MIT edX Intro to CS course (https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/courseware/530b7f9a82784d0cb57de334828e3050/bfe9eb02884a4812883ff9e543887968/1?activate_block_id=block-v1%3AMITx%2B6.00.1x%2B2T2017_2%2Btype%40vertical%2Bblock%40c949e378fb2d42f1b30877fc01b3ef5b):
 
 
@@ -25,3 +27,8 @@ Some additional rules of the game:
 - If the user guesses the same letter twice, do not take away a guess - instead, print a message letting them know they've already guessed that letter and ask them to try again.
 
 - The game should end when the user constructs the full word or runs out of guesses. If the player runs out of guesses (s/he "loses"), reveal the word to the user when the game ends.
+
+========  HOW TO PLAY  ========================
+Run 'hangman.py' in a Python program and follow the instructions in the command prompt/window. 
+
+IMPORTANT NOTE:  This file is extremely large due to the incorporation of the dictionary as text into the code (a temporary but crude solution to a separate issue).  Thus, it WILL BREAK if you try to use Python IDLE.  I suggest using Spyder through Anaconda.  :)
